@@ -1,0 +1,114 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	padding: 0 0;
+	
+/* 	background-color: aqua; */
+}
+.container
+{
+	width: 75%;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+
+.logo 
+{
+	width: 20%;
+	float: left;
+	margin-top: 6px;
+}
+
+.logo img{}
+{
+	width: 100%;
+}
+.menu
+{
+	width: 75%;
+	float: right;
+}
+.menu ul
+{
+	float: right;
+}
+.menu ul li
+{
+	list-style: none;
+	float: left;
+
+}
+.menu ul li a
+{
+
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #535D69;
+	text-decoration: none;
+	padding:0 10px;
+	display: inline-block;
+	transition: .2s;
+}
+.menu ul li:last-child a
+{
+	padding-right: 0;
+}
+.menu ul li a.hover
+{
+	color: #fd1d1d;
+}
+.banner 
+{
+	background-image: url("businessmen.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+}
+.b_content 
+{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 60%;
+}
+.b_content h1
+{
+	font-family: sans-serif;
+	font-size: 48px;
+	font-weight: 700;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+.b_content p
+{
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+.b_content button
+{
+	width: 180px;
+	height: 30px;
+	background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,59,29,1) 73%, rgba(252,176,69,1) 100%);
+	font-family: sans-serif;
+	font-size: 11px;
+    font-weight: 600;
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.b_content button:focus
+{
+	outline: 0;
+}
